@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Uncategorized &#8211; Lifeclock One</title>
+	<atom:link href="/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The Escape From New York inspired smartwatch</description>
+	<lastBuildDate>Mon, 13 Nov 2017 02:44:57 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+
+<image>
+	<url>/wp-content/uploads/2016/07/snake_portrait_02_114-80x80.png</url>
+	<title>Uncategorized &#8211; Lifeclock One</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Android app now available on Google Play</title>
+		<link>/2017/11/13/android-app-now-available-google-play/</link>
+		
+		<dc:creator><![CDATA[Jonathan Zufi]]></dc:creator>
+		<pubDate>Mon, 13 Nov 2017 02:44:57 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/?p=41681</guid>
+
+					<description><![CDATA[<p>The Lifeclock One app for Android is now available on Google Play. Thank you again for all you Android owners who have been so patient with us. This first release is still a little buggy, but we&#8217;re able to move...</p>
+<p>The post <a rel="nofollow" href="/2017/11/13/android-app-now-available-google-play/">Android app now available on Google Play</a> appeared first on <a rel="nofollow" href="/">Lifeclock One</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>The Lifeclock One app for Android is now available on Google Play.</p>
+<p>Thank you again for all you Android owners who have been so patient with us.</p>
+<p>This first release is still a little buggy, but we&#8217;re able to move much faster now on the Android platform in releasing updates.</p>
+<p><iframe width="840" height="473" src="https://www.youtube.com/embed/8nm02_Z8jOI?feature=oembed" frameborder="0" gesture="media" allowfullscreen></iframe></p>
+<p>If you&#8217;ve been testing the beta version:</p>
+<ol>
+<li>Uninstall the app before installing the version from Google Play.</li>
+<li>On your phone, go to Settings -&gt; Bluetooth and unpair/remove the Lifeclock XXXXX entry.</li>
+<li>On this same screen, you&#8217;ll see a switch to turn Bluetooth on/off &#8211; turn it off, then turn it back on (on some Android phones, Bluetooth pairing data can be cached on the phone &#8211; cycling Bluetooth here ensures all previous entries are flushed).</li>
+<li>On your Lifeclock One, perform a factory reset by pressing the bottom button 5 times, then the top button four times &#8211; you should see the word &#8216;RESET&#8217; &#8211; press the bottom button which will initiate the reset.</li>
+<li>Your Lifeclock One is now back to it&#8217;s original state.</li>
+</ol>
+<p>To install the Android app from the Google Play store:</p>
+<ol>
+<li>On your phone, go to Settings -&gt; Bluetooth.</li>
+<li>You should see a list of devices which will include &#8216;Lifeclock XXXXX&#8217; (where XXXXX is your serial number).</li>
+<li>Tap on the entry &#8211; you should see the word &#8216;PAIRED&#8217; appear on your Lifeclock One.</li>
+<li>The watch is now paired with your phone, but your phone cannot control the watch without the companion app.</li>
+<li>Go to &#8216;Play&#8217; on your Android phone.</li>
+<li>Search for &#8216;Lifeclock One&#8217;</li>
+<li>Install the app then open it.</li>
+<li>After a few moments you should see the welcome screen &#8211; swipe up to move to the bottom of the screen and tap &#8216;Continue&#8217;.</li>
+<li>You should arrive at the home screen where you can see the battery level of your Lifeclock One.</li>
+</ol>
+<p>If you have an issue getting this far, please contact us and we&#8217;ll work with you to resolve it.</p>
+<p>&nbsp;</p>
+<p>The post <a rel="nofollow" href="/2017/11/13/android-app-now-available-google-play/">Android app now available on Google Play</a> appeared first on <a rel="nofollow" href="/">Lifeclock One</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

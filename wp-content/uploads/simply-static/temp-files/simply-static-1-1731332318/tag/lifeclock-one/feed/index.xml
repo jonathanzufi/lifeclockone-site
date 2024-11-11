@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Lifeclock One &#8211; Lifeclock One</title>
+	<atom:link href="/tag/lifeclock-one/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The Escape From New York inspired smartwatch</description>
+	<lastBuildDate>Sun, 10 Sep 2017 18:44:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+
+<image>
+	<url>/wp-content/uploads/2016/07/snake_portrait_02_114-80x80.png</url>
+	<title>Lifeclock One &#8211; Lifeclock One</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Android Testing Update</title>
+		<link>/2017/09/06/android-testing-update/</link>
+		
+		<dc:creator><![CDATA[Jonathan Zufi]]></dc:creator>
+		<pubDate>Wed, 06 Sep 2017 21:20:51 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Escape From New York]]></category>
+		<category><![CDATA[Lifeclock One]]></category>
+		<category><![CDATA[Snake Plissken]]></category>
+		<guid isPermaLink="false">/?p=41581</guid>
+
+					<description><![CDATA[<p>Hi everyone. We wanted to give you an update on where we&#8217;re at with the Lifeclock One companion app for Android. We are so grateful for your continued patiences but we know that many of you are disappointed that it&#8217;s...</p>
+<p>The post <a rel="nofollow" href="/2017/09/06/android-testing-update/">Android Testing Update</a> appeared first on <a rel="nofollow" href="/">Lifeclock One</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Hi everyone.</p>
+<p>We wanted to give you an update on where we&#8217;re at with the Lifeclock One companion app for Android. We are so grateful for your continued patiences but we know that many of you are disappointed that it&#8217;s not done yet (unlike the iOS app which has been available for some time). So in this post we&#8217;re going to provide some background on how we got to this point, where we are at today and how we get to the finish line.</p>
+<p>Unlike Apple, the Android device ecosystem is <a href="https://opensignal.com/reports/2015/08/android-fragmentation/">massive.</a> The size of this ecosystem presents a challenge to software developers who want to write apps for Android &#8211; which devices and which operating systems do you want to support? Apple has done a much better job of providing tools to developers to allow them to write to a single code base and target practically every Apple device out there. With Android, you need to decide on your target audience in advance. Unlike Apple, unfortunately the answer simply can&#8217;t be &#8216;all of them&#8217;.</p>
+<p>When we launched our Kickstarter, we had an ambitious goal of targeting any Android device running 4.4 (KitKat) or higher. This turned out to be almost impossible to achieve given our resources. Trying to get the Lifeclock One to talk to this massive range of devices proved to exceed the scope of what we could reasonably achieve with our tiny team. So we had to pull back &#8211; this meant ripping out a lot of existing code and tweaking things so that we could target a consistent, more advanced/modern set of devices with predictable results. Subsequently, we are now targeting Android phones running version 6.0 or higher. This has given us a much better chance of success.</p>
+<p>The biggest problem we were having was a consistent connection experience. Every device manufacturer seems to implement their Bluetooth stack in a slightly different way &#8211; an operating system like Android is supposed to abstract this but that simply isn&#8217;t the case. As of this past weekend, we&#8217;ve sorted out most of the connection issues. Now that we&#8217;re over that hump, we can do some cleanup and focus on implementing all the remaining functions properly and generally quality testing the app.</p>
+<p>This past weekend we put together a short video showing where we&#8217;re at. What you&#8217;re going to see in the video below is a few things:</p>
+<ul>
+<li>Running the app for the first time</li>
+<li>Connecting to the Lifeclock One</li>
+<li>Basic functionality like brightness, display duration and scroll time.</li>
+</ul>
+<p>This video shows results on four devices: Motorola Nexus 6 (Android 7.1), LG Nexus 5 (Android 6.0), Sony Xperia C5 (Android 6.0) and LG G4 (Android 6.0). The set up process is very different than iOS &#8211; you need to pair the Lifeclock One first through the phones Settings/Bluetooth screen. Once that&#8217;s done, you can launch the app. Please note that many of the permissions screens you see popping up will appear differently once that app is actually published on the Play Store. A reminder also that the Lifeclock One and the companion app don&#8217;t send any personal data back to any server. The only server communication that happens is when the app checks for a software update.</p>
+<p><iframe width="840" height="473" src="https://www.youtube.com/embed/GYhN_ubonQo?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p>Here&#8217;s a short video of the OTA update process:</p>
+<p><iframe width="840" height="473" src="https://www.youtube.com/embed/RTHt8T9ZABA?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p>You can see we&#8217;re still not there yet &#8211; there are more than a few glitches. If you&#8217;re willing to sign up for beta testing, you&#8217;ll need two things: 1) an iPhone nearby in case something goes wrong and 2) a good dose of patience. The reason you should have an iPhone handy is in case the firmware upgrade fails &#8211; you can recover it with an iPhone &#8211; otherwise your Lifeclock One *could* get stuck in update mode.</p>
+<p>If you&#8217;re still interested in beta testing this app, we would love to get your help.  Since the app isn&#8217;t published on the app store, you&#8217;ll need to jump through a few hoops in order to get the app on to your device. If you are not that technical, we would suggest not going through these steps at the moment. Here are the steps you&#8217;ll need to do:</p>
+<p><span style="text-decoration: underline;"><strong>Install the app on to your phone:</strong></span></p>
+<ul>
+<li>Download the .apk to your PC/Mac. Contact us directly for the download link &#8211; we&#8217;re only making it available to those who want to go through this process of beta testing the app.</li>
+<li>Enable developer mode on your Android phone. Go to the settings menu, and scroll down to &#8216;About phone.&#8217; Find the section called &#8216;Build&#8217; or &#8216;Build Number&#8217; and keep tapping that label until you see a message that says &#8216;You are now a developer&#8217; . Go back to the Settings page and you&#8217;ll see a new option called &#8216;USB Debugging&#8217; &#8211; check that option.</li>
+<li>Turn your display timeout value on your phone to &gt;=5 minutes.</li>
+<li>Install ADB on your computer and install the .apk using the command:  <em>adb install app-1.0.c391b3f.apk</em></li>
+</ul>
+<p><strong>Prepare your Lifeclock One:</strong></p>
+<ul>
+<li>Do a Factory Reset on your Lifeclock One (see lifeclockone.com/manual for details on how to do this).</li>
+<li>Turn your Lifeclock One off (hold bottom button until power off sequence starts).</li>
+<li>With the Lifeclock One off, hold down both buttons for 8 seconds to force the Lifeclock One into update mode.</li>
+<li>Launch the app on your phone &#8211; make sure you select &#8216;Allow&#8217; on all the pop up options. We are working to reduce/consolidate all the warnings. Note that the app does NOT send ANY data back to ANY server. We don&#8217;t collect ANY information from your phone.</li>
+<li>On the app, select &#8216;Menu&#8217; &#8211; &#8216;Software Update&#8217; &#8211; apply firmware update 1.0.0a75db7.</li>
+</ul>
+<p>This is where things can go either way &#8211; the update should work and get all the way to the end. It is possible however that the software update could hang in the middle. If it does, you can try the entire operation sequence again:</p>
+<ul>
+<li>Hold down the bottom button on the Lifeclock One to turn it off.</li>
+<li>Hold down the bottom button to turn the watch back on &#8211; it will return to Update Mode.</li>
+<li>Kill the app on your Android phone and relaunch it &#8211; then try the Software Update again.</li>
+</ul>
+<p>If it continues to fail &#8211; don&#8217;t panic: you will need an iPhone (or iPod Touch/iPad) to restore the Lifeclock One back to normal. The reason for this is that the iPhone app is rock solid and works great &#8211; there are still some scenarios/phones in our testing that are having these Android related issues. To be fair, we&#8217;ve only seen this issue on a Sony Xperia Ultra C5 &#8211; testing on LG, Google, Motorola and LG phones showed no issues where the OTA update would fail in the middle but remember there are a gazillion phone models out there. (We&#8217;re looking into the Sony issue but this just highlights the challenge of Android.)</p>
+<p>Let us know how you go by emailing us at info@lifeclockone.com</p>
+<p>We want to thank all you Android users for being patient with us. The Lifeclock One works great without being paired to a phone, but the companion app gives you that added functionality that makes the Lifeclock One different from any other watch out there. We are working hard to get the same level of iOS capability out to our Android customers and we deeply appreciate your continued patience.</p>
+<p>Thanks,</p>
+<p>The Lifeclock One team.</p>
+<p>The post <a rel="nofollow" href="/2017/09/06/android-testing-update/">Android Testing Update</a> appeared first on <a rel="nofollow" href="/">Lifeclock One</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
